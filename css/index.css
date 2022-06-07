@@ -6,7 +6,8 @@
 }
 .navbar-brand{
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: 900;
+    text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
 }
 #navbarNav a:hover {
