@@ -1,0 +1,17 @@
+#navbarNav a {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#navbarNav a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    background-color: #0000ff;
+}
