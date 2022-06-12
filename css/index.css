@@ -13,6 +13,9 @@
 #navbarNav a:hover {
     text-decoration: underline;
 }
-.navbar {
-    background-color: #0000ff;
+.bg-arctic {
+    background-color: #007bff;
+}
+.card-img {
+    height: 490px !important;
 }
