@@ -16,6 +16,9 @@
 .bg-arctic {
     background-color: #007bff;
 }
+.color-arctic {
+    color: #007bff;
+}
 .card-img {
     height: 490px !important;
 }
