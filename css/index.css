@@ -22,3 +22,11 @@
 .card-img {
     height: 490px !important;
 }
+.card-img-top {
+    width:  200px;
+    height: 200px;
+    background-size: cover;
+}
+#image_gallery
+ {background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);}
