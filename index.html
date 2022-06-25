@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Allama Rafiq Institute</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -23,7 +27,7 @@
 
     <nav class="navbar navbar-expand-lg bg-arctic px-5">
       <div class="container-fluid">
-        <span class="navbar-brand ps-2" >
+        <span class="navbar-brand ps-2 wow animate__animated animate__bounce" >
           <img src="images/logo.png" width="30" height="30"/>
           Allama Rafiq Institute</span>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,7 +90,7 @@
     <section id="about">
       <div class="row px-5">
        <div class="col-md-9  py-1">
-      <div class="card bg-dark border-0">
+      <div class="card bg-dark border-0 wow animate__animated animate__flipInY">
         <img src="images/aboutus.jpg" class="card-img h-80" alt="..." >
         <div class="card-img-overlay">
           <h5 class="card-title text-white" >About us</h5>
@@ -114,7 +118,7 @@
        </div>
       </div>
       <div class="col-md-3  py-1">
-        <div class="card text-bl bg-light mb-3 border-0 ">
+        <div class="card text-bl bg-light mb-3 border-0 wow animate__animated animate__flipInX">
           <div class="card-header text-white bg-arctic">List Of Governing Body</div>
           <div style="font-size: 13.5px;">
             <ol class="list-group list-group-numbered">
@@ -137,13 +141,13 @@
     <section id="about_principal" class="py-2 px-5">
     <div class="card p-2">
       <div class="row">
-      <div class="col-md-3 card-body" >
+      <div class="col-md-3 card-body wow animate__animated animate__flipInX" >
           <h4 class="card-title color-arctic">From The Desk</h4>
           <h2 class="card-title">Founder's Desk</h2>
           <img src="images/founder.jpeg"  alt="Founder Image" width="200" height="250" style="border-radius: 10%; "/>
             <p class="ps-3">Mr. Maqsood Ahmad</p>
           </div>
-          <div class="col-md-9 card-body" style="padding-top: 100px;">
+          <div class="col-md-9 card-body wow animate__animated animate__fadeIn" style="padding-top: 100px;">
             <h4 class="card-title"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;
               M.SC in Botany and a teacher  by profession. He through his enthusiasm, commitment 
               and  exceptional management skills , keeps the activities of the trust moving
@@ -217,5 +221,8 @@
     -->
     <!-- Owl Carousels-->
     <script src="js/owl.carousel.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
