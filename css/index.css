@@ -19,11 +19,10 @@
 .color-arctic {
     color: #007bff;
 }
-.card-img {
+#about .card-img {
     height: 490px !important;
 }
-.card-img-top {
-    width:  200px;
+#image_gallery .card-img-top {
     height: 200px;
     background-size: cover;
 }
@@ -34,6 +33,20 @@
 #contact {
     background-color: #d9ebef;
 }
+
+#activity .card-img-top {
+    height: 200px;
+    background-size: cover;
+}
 .text-transparent {
     background-color: transparent;
 }
+.animate__animated.animate__flipInX {
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__flipInY {
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__jackInTheBox {
+    --animate-duration: 2.5s;
+  }
