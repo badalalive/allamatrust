@@ -59,4 +59,19 @@
     width:20px;
     height:20px;
    }
+   .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+  .toggler-img {
+    padding-top: 2px;
+  }
+  .about-img {
+    display: none;
+  }
+  #about_principal .content {
+    padding-top: 10px !important;
+  }
   }
